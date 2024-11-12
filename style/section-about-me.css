@@ -1,0 +1,55 @@
+
+.section-about-me {
+    max-width: 1920px;
+    background-color: rgba(237, 247, 250, 1)
+}
+
+.wrapper-about-me {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 42px 0 42px 0;
+}
+
+.title-about-me {
+    position: relative;
+    width: 170px;
+    font-weight: 300;
+    font-size: 36px;
+    margin-bottom: 48px;
+    line-height: 47px;
+    color: var(--color-font-header);
+    background: url(../img/section-Projects/#.svg);
+}
+
+.title-about-me::before {
+    position: absolute;
+    content: "";
+    width: 200px; 
+    border-top: 3px solid var(--color-font-header);
+    left: 175px;
+    top: 25px;
+}
+
+.wrapper-content-about-me {
+    width: 500px;
+}
+
+.span-about-me {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--color-font-header);
+}
+
+.text-about-me {
+    max-width: 470px;
+    font-size: 16px;
+    margin: 10px 0 10px 0;
+    color: #787878;
+}
+
+.content-about-me {
+    max-width: 470px;
+    font-size: 16px;
+    color: #787878;
+}

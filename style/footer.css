@@ -1,0 +1,59 @@
+
+.footer {
+    max-width: 1920px;
+}
+
+.wrapper-footer {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.contacts-wrapper {
+    margin: 20px 0 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-contacts-wrapper {
+    
+}
+
+
+.address-mail {
+    margin-top: 10px;
+    font-size: 15px;
+    line-height: normal;
+    font-weight: 600;
+    color:#C778DD;
+}
+
+.address-mail:hover {
+    color: var(--color-blue);
+}
+
+.span-contacts-mail {
+    font-size: 15px;
+    line-height: normal;
+    font-weight: 600;
+    color: #787878;
+}
+
+.span-social {
+    font-size: 15px;
+    line-height: normal;
+    font-weight: 600;
+    color: #787878;
+}
+
+.svg-github:hover path {
+    fill: var(--color-blue);
+}
+
+.link-figma:hover path {
+    fill: var(--color-blue);
+}
+
+.link-vk:hover path {
+    fill: var(--color-blue);
+}

@@ -1,0 +1,33 @@
+
+@media (max-width: 1200px) {
+
+    .wrapper-footer {
+        max-width: 964px;
+    }
+
+    .contacts-wrapper {
+        max-width: 964px;
+    }
+}
+
+@media (max-width: 964px) {
+    .wrapper-footer {
+        max-width: 720px;
+    }
+
+    .contacts-wrapper {
+        max-width: 964px;
+        margin: 20px 0 20px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo-contacts-wrapper {
+        text-align: center;
+    }
+
+    .wrapper-social {
+        text-align: center;
+    }
+}

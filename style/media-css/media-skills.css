@@ -1,0 +1,50 @@
+
+@media (max-width: 1200px) {
+    .wrapper-skills {
+        max-width: 964px;
+    }
+}
+
+@media (max-width: 964px) {
+    .wrapper-skills {
+        max-width: 720px;
+    }
+}
+
+@media (max-width: 720px) {
+    .wrapper-skills {
+        max-width: 540px ;
+    }
+}
+
+@media (max-width: 540px) {
+    .wrapper-skills {
+        max-width: 480px;
+    }
+
+    .titles-kills::before {
+        width: 150px;
+    }
+
+    .card-skills {
+        width: 250px;
+    }
+
+    .card-skills-tools {
+        width: 250px;
+    }
+}
+
+@media (max-width: 480px) {
+    .wrapper-skills {
+        max-width: 340px;
+    }
+
+    .card-skills {
+        text-align: center;
+    }
+
+    .card-skills-tools {
+        text-align: center;
+    }
+}

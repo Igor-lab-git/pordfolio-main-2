@@ -1,0 +1,97 @@
+
+.section-projects {
+    max-width: 1920px;
+    background-color: rgba(237, 247, 250, 1);
+}
+
+.wrapper-content-projects {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding-top: 42px;
+}
+
+.title-projects {
+    position: relative;
+    width: 130px;
+    font-weight: 300;
+    font-size: 36px;
+    margin-bottom: 48px;
+    line-height: 47px;
+    color: var(--color-font-header);
+    background: url(../img/section-Projects/#.svg);
+}
+
+.title-projects::before {
+    position: absolute;
+    content: "";
+    width: 200px; 
+    border-top: 3px solid var(--color-font-header);
+    left: 150px;
+    top: 25px;
+}
+
+.wrapper-card-projects {
+    width: 1170px;
+    height: 470px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-projects {
+    width: 330px;
+    height: 362px;
+    background-color: var(--color-white);
+    border: 1px solid var(--color-font-header);
+}
+
+.img-projects {
+    width: 330px;
+    height: 150px;
+    border-bottom: 1px solid var(--color-font-header);
+}
+
+.h3-skilis-projects {
+    position: relative;
+    height: 21px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: var(--color-font-header);
+    margin: 20px 0 20px 10px;
+
+}
+
+.h3-skilis-projects::before {
+    position: absolute;
+    content: "";
+    width: 200px; 
+    border-top: 1px solid var(--color-font-header);
+    left: 1px;
+    top: 25px;
+}
+
+.span-maket-projects {
+    position: relative;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 16px;
+    margin: 15px 0 5px 10px;
+}
+
+.span-maket-projects::before {
+    position: absolute;
+    content: "";
+    width: 200px; 
+    border-top: 1px solid var(--color-font-header);
+    left: 1px;
+    top: 25px;
+}
+
+.card-projects-inline {
+    display: none;
+    width: 350px;
+    height: 200px;
+    background-color: var(--color-white);
+    border: 1px solid var(--color-font-header);
+}

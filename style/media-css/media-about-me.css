@@ -1,0 +1,55 @@
+
+@media (max-width: 1200px) {
+    .wrapper-about-me {
+        max-width: 964px;
+    }
+}
+
+@media (max-width: 964px) {
+    .wrapper-about-me {
+        max-width: 720px;
+    }
+}
+
+@media (max-width: 720px) {
+    .wrapper-about-me {
+        max-width: 540px ;
+    }
+}
+
+@media (max-width: 540px) {
+    .wrapper-about-me {
+        max-width: 480px;
+    }
+    
+    .title-about-me::before {
+        width: 150px;
+    }
+
+    .wrapper-content-about-me {
+        max-width: 480px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text-about-me {
+        max-width: 340px;
+    }
+
+    .content-about-me {
+        max-width: 340px;
+    }
+}
+
+@media (max-width: 480px) {
+    .wrapper-about-me {
+        max-width: 340px;
+    }
+
+    .wrapper-content-about-me {
+        max-width: 340px;
+    }
+
+}
